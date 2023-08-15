@@ -1,0 +1,11 @@
+extended:
+
+  scripts:
+    createUnit:
+      - offset: 33
+        code: |
+          if gt turn 0;
+            unit.setTimeUnits 0;
+          end;
+
+          return;

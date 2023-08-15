@@ -1,0 +1,9 @@
+extended:
+
+  scripts:
+    hitUnit:
+      - delete: ROSIGMA_hU_damage_feedback
+    damageUnit:
+      - delete: ROSIGMA_dU_damage_feedback
+
+

@@ -1,0 +1,4 @@
+soldiers:
+  - type: STR_ARBITES_MASTIFF
+    requires: !remove
+      - STR_ARBITES

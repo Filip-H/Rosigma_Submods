@@ -1,0 +1,7 @@
+name: "Lower Move cost (player only)"
+version: "1.0"
+author: "Filip H"
+description: "Reduces time unit costs of moving for player units"
+id: Low_move_cost_player_only
+master: 40k
+isMaster: false

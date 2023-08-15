@@ -1,0 +1,7 @@
+name: "Light Chimera Doors"
+version: "1.0"
+author: "Filip H"
+description: "Door handles not included"
+id: LChimera_doors
+master: 40k
+isMaster: false

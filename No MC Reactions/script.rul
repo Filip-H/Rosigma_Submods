@@ -1,0 +1,18 @@
+extended:
+
+  scripts:
+    reactionUnitReaction:
+      - offset: 1
+        code: |
+          var int faction;
+          var int orgFaction;
+          var int temp;
+
+          reaction_unit.getFaction faction;
+          reaction_unit.getOriginalFaction orgFaction;
+
+
+          if neq faction orgFaction;
+            set reaction_chance 0;
+          end;
+          return reaction_chance;

@@ -1,0 +1,7 @@
+name: "Bleedout Grace Period"
+version: "1.0"
+author: "Filip H"
+description: "Guarantees that bleeding out units have atleast 1 turn to survive"
+id: Bleedout_Grace
+master: 40k
+isMaster: false

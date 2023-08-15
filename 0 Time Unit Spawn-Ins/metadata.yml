@@ -1,0 +1,7 @@
+name: "0 Time Unit Spawn-Ins"
+version: "1.0"
+author: "Filip H"
+description: "All units created after turn 1 start with 0 time units"
+id: 0Tu_spawn_in
+master: 40k
+isMaster: false

@@ -1,0 +1,7 @@
+name: "Alpha Legion infiltration"
+version: "1.0"
+author: "Filip H"
+description: "Mom said it was my turn to be Alpharius"
+id: AL_Inf
+master: 40k
+isMaster: false

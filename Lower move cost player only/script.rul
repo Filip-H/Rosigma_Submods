@@ -1,0 +1,14 @@
+extended:
+
+  scripts:
+    createUnit:
+      - offset: 3
+        code: |
+          var int faction;
+          unit.getFaction faction;
+          if eq faction FACTION_PLAYER;
+            unit.MoveCost.setBaseTimePercent 75;
+          end;
+
+
+          return;

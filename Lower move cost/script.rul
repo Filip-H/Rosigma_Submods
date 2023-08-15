@@ -1,0 +1,10 @@
+extended:
+
+  scripts:
+    createUnit:
+      - offset: 1
+        code: |
+          unit.MoveCost.setBaseTimePercent 75;
+
+
+          return;

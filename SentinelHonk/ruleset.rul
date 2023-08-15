@@ -1,0 +1,50 @@
+extraSprites:
+  - type: SPICONS.DAT
+    files:
+       998: Resources/spicon_honk.png
+
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      999: Resources/honk.wav
+
+items:
+
+  - type: STR_HONK
+    medikitType: 1
+    medikitActionName: STR_HONK
+    medikitTargetSelf: true
+    heal: 999
+    battleType: 6
+    tuUse: 1
+    flatRate: true
+    hitSound: 999
+    specialIconSprite: 998
+    fixedWeapon: true
+
+armors:
+  - type: STR_ADEPTAS_SENTINEL_LANCE_UC
+    specialWeapon: STR_HONK
+  - type: STR_ADEPTAS_SENTINEL_HBOLTER_UC
+    specialWeapon: STR_HONK
+  - type: STR_GUARD_ARMORS_SENTINEL_AUTOCANNON_UC
+    specialWeapon: STR_HONK
+  - type: STR_GUARD_ARMORS_SENTINEL_HEAVY_FLAMER_UC
+    specialWeapon: STR_HONK
+  - type: STR_GUARD_ARMORS_SENTINEL_HEAVY_PLASMA_UC
+    specialWeapon: STR_HONK
+  - type: STR_GUARD_ARMORS_SENTINEL_MISSILE_UC
+    specialWeapon: STR_HONK
+  - type: STR_GUARD_ARMORS_SENTINEL_MULTILASER_UC
+    specialWeapon: STR_HONK
+  - type: STR_SENTINEL_ARMOR_UC
+    specialWeapon: STR_HONK
+  - type: STR_GUARD_ARMORS_SENTINEL_MULTIMELTA_UC
+    specialWeapon: STR_HONK
+  - type: STR_CHAOS_SENTINEL_ARMOR
+    specialWeapon: STR_HONK
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_HONK: "Honk Honk"

@@ -1,0 +1,7 @@
+name: "Lower Move cost"
+version: "1.0"
+author: "Filip H"
+description: "Reduces time unit costs of moving"
+id: Low_move_cost
+master: 40k
+isMaster: false

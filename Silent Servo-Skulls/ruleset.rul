@@ -1,0 +1,8 @@
+units:
+
+  - type: STR_SKULL
+    moveSound: 996
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      996: Resources/Silence.wav

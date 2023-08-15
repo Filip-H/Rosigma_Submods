@@ -1,0 +1,7 @@
+extended:
+    scripts:
+        damageUnit:
+            - offset: 1
+              code: |
+                battle_game.flashMessage "Health Damage: {0}, Armor Damage: {1}" to_health to_armor;
+                return;

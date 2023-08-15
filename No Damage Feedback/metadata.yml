@@ -1,0 +1,7 @@
+name: "No Damage Feedback"
+version: "1.0"
+author: "Filip H"
+description: "Removes the damage flashes from hits"
+id: no_feedback
+master: 40k
+isMaster: false

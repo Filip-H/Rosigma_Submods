@@ -1,0 +1,6 @@
+name: "Damage Notification"
+version: 1.1
+description: "Flashes a message with damage values when a unit is hit"
+author: Filip H
+
+master: "*"

@@ -1,0 +1,7 @@
+name: "Flamer Safe Distance"
+version: "1.0"
+author: "Filip H"
+description: "Adds a safety distance of 2 tiles to flamers"
+id: Safe_Flamer
+master: 40k
+isMaster: false

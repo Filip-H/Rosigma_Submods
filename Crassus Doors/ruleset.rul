@@ -1,0 +1,27 @@
+crafts:
+
+  - type: STR_CASSIUM
+    battlescapeTerrainData:
+      name: CASSIUM
+      mapDataSets:
+        - BLANKS
+        - CASSIUM
+        - REPULSOR
+      mapBlocks:
+        - name: CASSIUM
+          width: 10
+          length: 20
+          items:
+            STR_CASSIUM_BOLTER_LEFT1_SPAWNER:
+              - [1, 14, 1]
+            STR_CASSIUM_BOLTER_LEFT2_SPAWNER:
+              - [3, 17, 1]
+            STR_CASSIUM_BOLTER_RIGHT1_SPAWNER:
+              - [8, 14, 1]
+            STR_CASSIUM_BOLTER_RIGHT2_SPAWNER:
+              - [6, 17, 1]
+          fuseTimers:
+            STR_CASSIUM_BOLTER_LEFT1_SPAWNER: [0, 0]
+            STR_CASSIUM_BOLTER_LEFT2_SPAWNER: [0, 0]
+            STR_CASSIUM_BOLTER_RIGHT1_SPAWNER: [0, 0]
+            STR_CASSIUM_BOLTER_RIGHT2_SPAWNER: [0, 0]

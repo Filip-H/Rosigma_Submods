@@ -1,0 +1,16 @@
+events:
+  - name: STR_COMMISSAR_IG
+    description: STR_COMMISSAR_IG_DESCRIPTION
+    background: GuardBG.SCR
+    spawnedPersons: 1
+    spawnedPersonType: STR_COMMISSAR
+    spawnedPersonName: ""
+    spawnedSoldier:
+      rank: 4
+    timer: 30
+
+extraStrings:
+  - type: en-US
+    strings: 
+     STR_COMMISSAR_IG_DESCRIPTION: "The local Commissar joins this sad excuse of a PDF outpost to motivate our troops to keep fighting despite heavy losses and to show how it's done to fight in the Emperor's Name!"
+     STR_COMMISSAR_IG: "Commissar Joins"

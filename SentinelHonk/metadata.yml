@@ -1,0 +1,9 @@
+name: "Sentinel Honk"
+version: "1.1"
+author: "Filip H"
+description: "'Honk Honk'"
+id: sentinel_honk
+master: 40k
+isMaster: false
+
+#Sound effect by StickInTheMud under Sampling Plus 1.0 license

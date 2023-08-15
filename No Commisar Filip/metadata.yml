@@ -1,0 +1,7 @@
+name: "No Commisar Filip"
+version: "1.0"
+author: "Filip H"
+description: "Replaces commisar Filip with a generic commisar"
+id: No_Filip
+master: 40k
+isMaster: false

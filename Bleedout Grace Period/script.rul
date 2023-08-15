@@ -1,0 +1,49 @@
+extended:
+  tags:
+    BattleUnit:
+      NoOfWounds: int
+  scripts:
+
+    newTurnUnit:
+      - offset: 1
+        code: |
+          var int faction;
+          var int wounds;
+          
+          unit.getFaction faction;
+          if eq faction FACTION_PLAYER;
+            unit.getFatalwoundsTotal wounds;
+            unit.setTag Tag.NoOfWounds wounds;
+          end;
+          return;
+      
+    damageUnit:
+      - offset: 80
+        code: |
+          var int faction;
+          var int noofwounds;
+          var int health;
+          var int wounds;
+          
+          unit.getFaction faction;
+          if eq faction FACTION_PLAYER;
+            unit.getFatalwoundsTotal wounds;
+            unit.getTag noofwounds Tag.NoOfWounds;
+            if gt noofwounds 0;
+              return;
+            end;
+            sub wounds noofwounds;
+            add wounds to_wound;
+            unit.getHealth health;
+            sub health to_health;
+            if le health 0;
+              return;
+            end;
+            if ge wounds health;
+              unit.getFatalwoundsTotal wounds;
+              sub health wounds;
+              sub health 1;
+              set to_wound health;
+            end;  
+          end;
+          return;

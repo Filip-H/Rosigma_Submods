@@ -1,0 +1,7 @@
+name: "Buyable Servo-Skulls"
+version: "1.2"
+author: "Filip H"
+description: "Allows Servo-Skulls to be bought"
+id: Buy_Skulls
+master: 40k
+isMaster: false

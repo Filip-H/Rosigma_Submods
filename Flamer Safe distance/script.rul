@@ -1,0 +1,46 @@
+items:
+  - type: STR_FLAMETHROWER
+    tags:
+      SafetyDistance: 2
+  - type: STR_HAND_FLAMETHROWER
+    tags:
+      SafetyDistance: 2
+  - type: STR_INQ_FLAMER
+    tags:
+      SafetyDistance: 2
+  - type: STR_HFLAMER
+    tags:
+      SafetyDistance: 2
+extended:
+  tags:
+    RuleItem:
+      SafetyDistance: int
+  scripts:
+    hitUnit:
+      - offset: 50
+        code: |
+          var int safetydistance;
+          var int distance;
+          var int x;
+          var int y;
+          var int z;
+          var ptr Tile attacker_tile;
+          var ptr Tile victim_tile;
+
+          weapon_item.getTag safetydistance Tag.SafetyDistance;
+          if gt safetydistance 0;
+            attacker.getPosition.getX x;
+            attacker.getPosition.getY y;
+            attacker.getPosition.getZ z;
+            battle_game.getTile attacker_tile x y z;
+            
+            unit.getPosition.getX x;
+            unit.getPosition.getY y;
+            unit.getPosition.getZ z;
+            battle_game.getTile victim_tile x y z;
+            attacker_tile.getDistanceTile distance victim_tile;
+            if le distance safetydistance;
+              set power 0;
+            end;
+          end;
+          return power part side;
