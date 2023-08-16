@@ -3,5 +3,5 @@ version: "1.0"
 author: "Filip H"
 description: "Mind-Controlled units cannot reaction fire"
 id: No_MC_Re
-master: 40k
+master: "*"
 isMaster: false
