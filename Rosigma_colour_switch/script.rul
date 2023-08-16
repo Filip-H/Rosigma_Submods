@@ -1,0 +1,515 @@
+extraSprites:
+  - type: SPICONS.DAT
+    files:
+       999: Resources/spicon_recolour.png
+armors:
+- type: STR_OGRYN_UC
+  tags:
+    ArmorDefaultColour: 6
+- type: STR_KRIEG_POWER_ARMOR
+  tags:
+    ArmorDefaultColour: 1
+# - type: STR_ADEPTAS_ARMORA
+#   tags:
+#     ArmorDefaultColour: 1
+soldiers:
+  - type: STR_GUARDSM
+    skillIconSprite: 999
+    skills:
+      - STR_DIG_IN
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 5
+  - type: STR_GUARD_VETERAN
+    skillIconSprite: 999
+    skills:
+      - STR_DIG_IN
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 5
+  - type: STR_GUARD_SQUAT
+    skillIconSprite: 999
+    skills:
+      - STR_DIG_IN
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 5
+  - type: STR_GUARD_BEASTMAN
+    skillIconSprite: 999
+    skills:
+      - STR_DIG_IN
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 5
+  - type: STR_OGRYN
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 5
+  - type: STR_OGRYN_BONEHEAD
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_SKILL_BONEHEAD_GETTA_GRIP
+      - STR_SKILL_BONEHEAD_GET_EM
+      - STR_SKILL_BONEHEAD_SHRUG_IT_OFF
+      - STR_SKILL_BONEHEAD_GOTTA_GO_FAST
+    tags:
+      UnitDefaultColour: 5
+  - type: STR_GUARD_OFFICER
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_HUNKER_DOWN
+      - STR_BLITZKRIEG
+      - STR_FIX_BAYONETS
+      - STR_CHECK_COMMAND
+    tags: 
+      UnitDefaultColour: 5
+  - type: STR_GUARD_OFFICER_VETERAN
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_HUNKER_DOWN
+      - STR_BLITZKRIEG
+      - STR_FIX_BAYONETS
+      - STR_CHECK_COMMAND
+    tags: 
+      UnitDefaultColour: 5
+  - type: STR_COMMISSAR
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 1
+  - type: STR_PILOT_GUARD
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 5
+  - type: STR_GUARD_FELINID
+    skillIconSprite: 999
+    skills:
+      - STR_DIG_IN
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 5
+  - type: STR_PENITENT_GUARD
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 1
+  - type: STR_GUARD_TANITH
+    skillIconSprite: 999
+    skills:
+      - STR_DIG_IN
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 5
+  - type: STR_GUARDSM_KRIEG
+    skillIconSprite: 999
+    skills:
+      - STR_DIG_IN
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 16
+  - type: STR_GUARD_KRIEG_GRENADIER
+    skillIconSprite: 999
+    skills:
+      - STR_DIG_IN
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 16
+
+  - type: STR_IRON_GUARDSMAN
+  - type: STR_STORMTROOPER
+    skillIconSprite: 999
+    skills:
+      - STR_DIG_IN
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 9
+  - type: STR_STORMTROOPER_OFFICER
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_HUNKER_DOWN
+      - STR_BLITZKRIEG
+      - STR_FIX_BAYONETS
+      - STR_CHECK_COMMAND
+    tags: 
+      UnitDefaultColour: 9
+  - type: STR_PSYKER
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 6
+  - type: STR_GUARD_PRIEST
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 3
+  - type: STR_GUARD_IMPERIAL_ASSASSIN
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 1
+  - type: STR_PRIMARISLV1
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 8
+  - type: STR_PRIMARISLV2
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 8
+  - type: STR_PRIMARISLV3
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 8
+  - type: STR_PRIMARISLV4
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 8
+  - type: STR_PRIMARISLV5
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 8
+  - type: STR_CHAOS_MARINE
+  - type: STR_CHAOS_MARINE_SLAANESH
+  - type: STR_CHAOS_MARINE_NURGLE
+  - type: STR_CHAOS_MARINE_TZEENTCH
+  - type: STR_CHAOS_MARINE_KHORNE
+  - type: STR_SOLDIER
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 8
+  - type: STR_SOLDIER_TERMINATOR
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 8
+  - type: STR_FALLEN
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 8
+  - type: STR_FALLEN_GK
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 1
+  - type: STR_GK_LV1
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 1
+  - type: STR_GK_LV2
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 1
+  - type: STR_GK_LV3
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 1
+  - type: STR_GK_LV4
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 1
+  - type: STR_GK_LV5
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 1
+  - type: STR_INQ_STORMTROOPER
+    skillIconSprite: 999
+    skills:
+      - STR_DIG_IN
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 16
+  - type: STR_ELDAR_FARSEER 
+  - type: STR_IMPERIAL_INQUISITOR
+  - type: STR_SOLDIER_JOAN
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 8
+  - type: STR_ADEPTAS
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 3
+  - type: STR_ADEPTAS_NOVICE 
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 1
+  - type: STR_ADEPTAS_SLAANNOVICE
+  - type: STR_ADEPTAS_PILOT
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 3
+  - type: STR_ADEPTAS_REPENTIA
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 3
+  - type: STR_ADEPTAS_REPENTIA_SUPERIOR
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 3
+  - type: STR_CANONESS
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 3
+  - type: STR_SAINT
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 2
+  - type: STR_ADEPTAS_VETERAN
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 3
+  - type: STR_ADEPTAS_SUPERIOR
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 3
+  - type: STR_ADEPTAS_GEMINAE
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 3
+  - type: STR_ADEPTAS_NOVITIATE_SUPERIOR
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 3
+  - type: STR_ADEPTAS_DCAssassin
+  - type: STR_ADEPTAS_ASSASSIN
+  - type: STR_ADEPTAS_CALLIDUS
+  - type: STR_IMPERIAL_ASSASSINFEM
+  - type: STR_ADEPTAS_CHAOS
+  - type: STR_ADEPTAS_SLAANESH
+  - type: STR_ADEPTAS_KHORNE
+  - type: STR_ADEPTAS_NURGLE
+  - type: STR_ADEPTAS_TZEENTCH
+  - type: STR_ADEPTAS_IRON_MAIDEN
+  - type: STR_ADEPTAS_FRATERIS_MILITIA
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 3
+  - type: STR_ADEPTAS_FRATERIS_MILITIA_VETERAN
+    skillIconSprite: 999
+    skills:
+      - STR_RECOLOUR_SKILL
+      - STR_DECOLOUR_SKILL
+    tags: 
+      UnitDefaultColour: 3
+  - type: STR_GUARDPD
+  - type: STR_JUDGE
+  - type: STR_ARBITES_MASTIFF
+skills:
+  - type: STR_RECOLOUR_SKILL
+    costUse:
+      time: 1 
+    tags:
+      RecolourSkill: 1
+
+  - type: STR_DECOLOUR_SKILL
+    costUse:
+      time: 1 
+    tags:
+      RecolourSkill: 2
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_RECOLOUR_SKILL: "Recolor Down"
+      STR_DECOLOUR_SKILL:  "Recolor Up"
+extended:
+  tags:
+    GeoscapeSoldier:
+      UnitColour: int
+      Recoloured: int
+    RuleSkill:
+      RecolourSkill: int 
+    RuleArmor:
+      ArmorDefaultColour: int
+    RuleSoldier:
+      UnitDefaultColour: int
+
+    
+
+  scripts:
+    skillUseUnit:
+      - offset: 1
+        code: |
+          var int recolourskill;
+          var int recoloured;
+          var int unitcolour;
+          var int unitdefaultcolour;
+          var ptre GeoscapeSoldier soldier;
+          var ptr RuleSoldier rulesoldier;
+          
+          skill.getTag recolourskill Tag.RecolourSkill;
+          if eq recolourskill 1;
+            actor.getGeoscapeSoldier soldier;
+            soldier.getTag recoloured Tag.Recoloured;
+            if eq recoloured 0;
+              soldier.setTag Tag.Recoloured 1;
+              actor.getRuleSoldier rulesoldier;
+              rulesoldier.getTag unitdefaultcolour Tag.UnitDefaultColour;
+              soldier.setTag Tag.UnitColour unitdefaultcolour;
+            end;
+            if eq recoloured 1;
+              soldier.getTag unitcolour Tag.UnitColour;
+              add unitcolour 1;
+              if ge unitcolour 16;
+                set unitcolour 0;
+              end;
+              soldier.setTag Tag.UnitColour unitcolour;
+            end;
+          end;
+          if eq recolourskill 2;
+            actor.getGeoscapeSoldier soldier;
+            soldier.getTag recoloured Tag.Recoloured;
+            if eq recoloured 0;
+              soldier.setTag Tag.Recoloured 1;
+              actor.getRuleSoldier rulesoldier;
+              rulesoldier.getTag unitdefaultcolour Tag.UnitDefaultColour;
+              sub unitdefaultcolour 2;
+              soldier.setTag Tag.UnitColour unitdefaultcolour;
+            end;
+            if eq recoloured 1;
+              soldier.getTag unitcolour Tag.UnitColour;
+              sub unitcolour 1;
+              if le unitcolour -1;
+                set unitcolour 15;
+              end;
+              soldier.setTag Tag.UnitColour unitcolour;
+            end;
+          end;
+          return;
+
+    recolorUnitSprite:
+     - offset: 1
+       code: |
+        var ptr GeoscapeSoldier soldier;
+        var ptr RuleSoldier rulesoldier;
+        var int newshade;
+        var int recolour;
+        var int oldcolour;
+        var int armordefaultcolour;
+        var int unitdefaultcolour;
+        var int changecolour;
+
+
+        unit.getTag armordefaultcolour Tag.ArmorDefaultColour;
+        if eq armordefaultcolour 0;
+          unit.getRuleSoldier rulesoldier;
+          rulesoldier.getTag unitdefaultcolour Tag.UnitDefaultColour;
+          sub unitdefaultcolour 1;
+          set changecolour unitdefaultcolour;
+        end;
+        if gt armordefaultcolour 0;
+          sub armordefaultcolour 1;
+          set changecolour armordefaultcolour;
+        end;
+        unit.getGeoscapeSoldier soldier;
+        soldier.getTag recolour Tag.Recoloured;
+        get_color oldcolour new_pixel;
+        if and eq recolour 1 eq oldcolour changecolour;
+          soldier.getTag newshade Tag.UnitColour;
+          set_color new_pixel newshade;
+        end;
+        return new_pixel;
+
