@@ -1,6 +1,0 @@
-name: "Fire Alert"
-version: "1.0"
-author: "Filip H"
-description: "Alerts the player if a unit is on fire at the start of the player's turn"
-id: fire_alert
-master: "*"
