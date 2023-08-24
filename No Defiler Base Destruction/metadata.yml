@@ -1,0 +1,7 @@
+name: "No Defiler Base Destruction"
+version: "1.0"
+author: "Filip H"
+description: "Defilers no longer destroy facilities, only triggering a normal base defence mission"
+id: No_defiler_boom
+master: 40k
+isMaster: false

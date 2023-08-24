@@ -1,0 +1,3 @@
+ufos:
+  - type: STR_DEFILER_UFO
+    missilePower: 0
