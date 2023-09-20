@@ -1,0 +1,25 @@
+items:
+
+  - type: STR_BUYABLE_SKULL_SPAWNER 
+    tags:
+      PrimeSkull: 1
+  - type: STR_SKULL_SPAWNER
+    tags:
+      PrimeSkull: 1
+extended:
+  tags:
+    RuleItem:
+      PrimeSkull: int
+  
+  scripts:
+    createItem:
+      - offset: 1
+        code: |
+          var int primeskull;
+          
+          item.getTag primeskull Tag.PrimeSkull;
+          if eq primeskull 1;
+            item.setFuseEnabled 1;
+            item.setFuseTimer 1;
+          end;
+          return;

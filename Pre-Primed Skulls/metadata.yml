@@ -1,0 +1,7 @@
+name: "Pre-Primed Skulls"
+version: "1.0"
+author: "Filip H"
+description: "Automatically pre-primes servo-skulls with a 1 turn timer"
+id: Primed_skulls
+master: 40k
+isMaster: false
