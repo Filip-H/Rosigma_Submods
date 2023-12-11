@@ -1,0 +1,7 @@
+name: "No Alpha Legion Infiltration"
+version: "1.0"
+author: "Filip H"
+description: "No you're not Alpharius"
+id: No_infiltration
+master: "40k"
+isMaster: false
