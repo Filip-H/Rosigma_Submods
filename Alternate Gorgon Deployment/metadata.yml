@@ -1,0 +1,7 @@
+name: "Alternate Gorgon Deployment"
+version: "1.0"
+author: "Filip H"
+description: "Please report to the Commissar for using non-standard deployment formations."
+id: alt_gorgon
+master: 40k
+isMaster: false
