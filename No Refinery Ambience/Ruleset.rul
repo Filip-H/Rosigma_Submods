@@ -1,0 +1,8 @@
+terrains:
+  - name: REFINERY # BOMBARDMENT DONE
+    ambience: -1 #Pit
+    ambientVolume: 0.0
+
+  - name: REFINERY_DESTRUCTIBLE
+    ambience: -1 #Pit
+    ambientVolume: 0.0

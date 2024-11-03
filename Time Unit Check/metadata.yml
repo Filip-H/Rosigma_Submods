@@ -1,0 +1,7 @@
+name: "Time Unit Check"
+version: "1.0"
+author: "Filip H"
+description: "Allows checking firendly units with Tu's left with Alt"
+id: Time_Check
+master: "*"
+isMaster: false
