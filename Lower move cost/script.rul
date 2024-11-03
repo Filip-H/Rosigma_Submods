@@ -5,6 +5,7 @@ extended:
       - offset: 1
         code: |
           unit.MoveCost.setBaseTimePercent 75;
+          unit.MoveCost.setBaseNormalEnergyPercent 75;
 
 
           return;

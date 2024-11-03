@@ -8,6 +8,7 @@ extended:
           unit.getFaction faction;
           if eq faction FACTION_PLAYER;
             unit.MoveCost.setBaseTimePercent 75;
+            unit.MoveCost.setBaseNormalEnergyPercent 75;
           end;
 
 

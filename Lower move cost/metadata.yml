@@ -1,7 +1,7 @@
 name: "Lower Move cost"
-version: "1.0"
+version: "1.1"
 author: "Filip H"
-description: "Reduces time unit costs of moving"
+description: "Reduces time unit and stamina costs of moving"
 id: Low_move_cost
 master: "*"
 isMaster: false
