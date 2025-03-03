@@ -1,0 +1,7 @@
+name: "Drop Valkyrie Evac"
+version: "1.3"
+author: "Filip H, With Help From Britarnya"
+description: "Allows evacuation with drop valkyries"
+id: Drop_Evac
+master: 40k
+isMaster: false

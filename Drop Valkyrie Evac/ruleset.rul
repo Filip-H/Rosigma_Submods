@@ -1,0 +1,211 @@
+crafts:
+
+
+  - type: STR_VALKYRIE_GRAV_DROP
+    craftInventoryTile: [4, 6, 6]
+    battlescapeTerrainData:
+      name: GUARD_GRAV_DROP_HWP
+      mapDataSets:
+        - BLANKS
+        - GUARD_GRAV_DROP
+        - VH_SINGLETURN
+        - 02SHIPFLOOR
+        - 02SHIPWALL
+        - 02SHIPDOOR
+      mapBlocks:
+        - name: GUARD_GRAV_DROP_HWP
+          revealedFloors: [5, 6]
+          width: 10
+          length: 20
+          height: 8
+          items:
+            STR_CAS_AIRSTRIKE_DESIGNATOR:
+              - [1, 1, 0]
+            STR_GRAVDROP_DEPLOY_CHARGE:
+              - [1, 1, 6]
+              - [5, 2, 6]
+              - [8, 3, 6]
+              - [3, 4, 6]
+              - [6, 5, 6]
+              - [4, 6, 6]
+              - [2, 7, 6]
+              - [7, 8, 6]
+              - [1, 9, 6]
+              - [4, 9, 6]
+              - [8, 10, 6]
+              - [2, 12, 6]
+              - [6, 12, 6]
+              - [4, 13, 6]
+              - [1, 14, 6]
+              - [7, 14, 6]
+              - [4, 15, 6]
+              - [8, 16, 6]
+              - [3, 17, 6]
+              - [6, 17, 6]
+            STR_CAS_MISSILE_POD_SPAWNER:
+              - [1, 10, 4]
+              - [7, 10, 4]
+            STR_CAS_CANNON_SPAWNER:
+              - [4, 14, 4]
+            STR_CAS_LEAVE_CHARGE:
+              - [4, 7, 4]
+            STR_EVAC_CHARGE:
+              - [4, 7, 0]
+              - [2, 7, 0]
+              - [6, 7, 0]
+              - [4, 4, 0]
+              - [4, 15, 0]
+          fuseTimers:
+            STR_CAS_LEAVE_CHARGE: [1, 1]
+            STR_GRAVDROP_DEPLOY_CHARGE: [1, 1]
+            STR_CAS_MISSILE_POD_SPAWNER: [0, 0]
+            STR_CAS_CANNON_SPAWNER: [0, 0]
+    deployment:
+      - [1, 1, 6, 0]
+#      - [2, 1, 3, 0] # added in HWP.map
+#      - [1, 2, 3, 0] # added in HWP.map
+#      - [2, 2, 3, 0] # added in HWP.map
+      - [5, 2, 6, 0]
+      - [8, 3, 6, 0]
+      - [3, 4, 6, 0]
+      - [6, 5, 6, 0]
+      - [4, 6, 6, 0]
+      - [2, 7, 6, 0]
+      - [7, 8, 6, 0]
+      - [1, 9, 6, 0]
+      - [4, 9, 6, 0]
+      - [8, 10, 6, 0]
+      - [2, 12, 6, 0]
+      - [6, 12, 6, 0]
+      - [4, 13, 6, 0]
+      - [1, 14, 6, 0]
+      - [7, 14, 6, 0]
+      - [4, 15, 6, 0]
+      - [8, 16, 6, 0]
+      - [3, 17, 6, 0]
+      - [6, 17, 6, 0]
+
+items:
+
+  - type: STR_EVAC_CHARGE
+    power: 10
+    weight: 999
+    hitAnimation: {mod: 40k, index: 136}
+    explosionHitSound: {mod: 40k, index: 866}
+    damageType: 3
+    damageAlter:
+      FixRadius: 6
+      RandomType: 3
+      ResistType: 10
+      ToHealth: 0.0
+      ToArmor: 0.0
+      ToStun: 0.0
+      ToWound: 0.0
+      ToItem: 0.0
+      ToTile: 11.0
+      RadiusReduction: 0.0
+      TileDamageMethod: 2
+      FireThreshold: 10000
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+    armor: 255
+    recover: false
+    hiddenOnMinimap: true
+    tags:
+      EvacCharge: 1
+
+
+  - type: STR_PERSONAL_VOX
+    medikitType: 1
+    medikitActionName: STR_CALL_FOR_EVAC
+    requires:
+      - STR_VALKYRIE_GRAV_DROP_IG
+    medikitTargetSelf: true
+    heal: 1
+    invWidth: 1
+    invHeight: 2
+    weight: 5
+    costBuy: 20000
+    battleType: 6
+    tuUse: 40
+    flatRate: true
+    bigSprite: 100
+    floorSprite: 100
+    handSprite: 100
+    isConsumable: true
+    hitSound: [100,101,102,103,104,105,106,107,108,109,110]
+    tags:
+      PersonalVox: 1
+
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      100: resources/panic (1).ogg
+      101: resources/panic (2).ogg
+      102: resources/panic (3).ogg
+      103: resources/panic (4).ogg
+      104: resources/panic (5).ogg
+      105: resources/panic (6).ogg
+      106: resources/panic (7).ogg
+      107: resources/panic (8).ogg
+      108: resources/panic (9).ogg
+      109: resources/panic (10).ogg
+      110: resources/panic (11).ogg
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_PERSONAL_VOX: "Personal Vox"
+      STR_CALL_FOR_EVAC: "Call for Evac"
+extraSprites:
+  - type: HANDOB.PCK
+    height: 40
+    width: 256
+    subX: 32
+    subY: 40
+    files:
+      100: Resources/HandPersonalvox.png
+
+  - type: BIGOBS.PCK
+    files:
+      100: Resources/BigPersonalvox.png
+  - type: FLOOROB.PCK 
+    files:
+      100: Resources/FloorPersonalvox.png
+extended:
+  tags:
+    RuleItem:
+      PersonalVox: int
+      EvacCharge: int
+    BattleGame:
+      PrimeCharge: int
+
+  scripts:
+    healUnit:
+      - offset: 1
+        code: |
+          var int personalvox;
+
+          item.getTag personalvox Tag.PersonalVox;
+          if eq personalvox 1;
+            battle_game.setTag Tag.PrimeCharge 1;
+          end;
+          return;
+    newTurnItem:
+      - offset: 1
+        code: |
+          var int primecharge;
+          var int evaccharge;
+          var int isprimed;
+
+          battle_game.getTag primecharge Tag.PrimeCharge;
+          item.getTag evaccharge Tag.EvacCharge;
+          if and eq evaccharge 1 eq primecharge 1;
+            item.isFuseEnabled isprimed;
+            if eq isprimed 0;
+              item.setFuseTimer 3;
+              debug_log "test";
+            end;
+          end;
+          return;
