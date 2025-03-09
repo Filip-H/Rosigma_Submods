@@ -1,5 +1,5 @@
 name: "Unit Colour switch"
-version: "1.5"
+version: "1.6"
 author: "Filip H"
 description: "Adds an ability for most units to switch armor colour"
 id: Unit_colour_switch

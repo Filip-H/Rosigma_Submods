@@ -113,7 +113,9 @@ soldiers:
     skills:
       - STR_DIG_IN
       - STR_RECOLOUR_SKILL
-      - STR_DECOLOUR_SKILL
+      - STR_SKILL_ACTIVATE_CAMO_CLOAK_CHECK
+      - STR_SKILL_ACTIVATE_CAMO_CLOAK
+      - STR_SKILL_ACTIVATE_CAMO_CLOAK_DEACTIVATE
     tags: 
       UnitDefaultColour: 5
   - type: STR_GUARDSM_KRIEG
